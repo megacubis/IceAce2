@@ -80,14 +80,27 @@ input {
 }
 
 .inp {
+    position: relative;
     text-align: center;
     margin: 30px;
+}
+
+.search-engine {
+    border: none;
+    padding: 0;
 }
 
 .inp-text {
     padding-left: 10px;
     width: 500px;
     height: 25px;
+}
+
+.fa-search {
+    position: absolute;
+    bottom: 7px;
+    right: 320px;
+    font-size: 18px;
 }
 
 .img-konstantin {
